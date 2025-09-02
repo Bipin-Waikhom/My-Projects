@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: rgb(250, 250, 250);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.box1 {
+  margin-top: 100px;
+  height: 500px;
+  width: 400px;
+  border: none;
+  padding: 20px;
+}
+.box1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+
+.box2 {
+  height: 360px;
+  width: 390px;
+  margin-top: -170px;
+  background: white;
+  border: 1px solid rgb(237, 237, 237);
+  border-top-left-radius: 9%;
+  border-top-right-radius: 9%;
+  border-bottom-left-radius: 1%;
+  border-bottom-right-radius: 1%;
+  margin-right: -275px;
+  box-shadow: 5px 5px 15px rgba(0 0, 0, 0.1);
+}
+.insta_logo {
+  height: 40px;
+  margin-top: 40px;
+  width: 150px;
+  cursor: pointer;
+  margin-left: 110px;
+  align-items: center;
+}
+.email {
+  margin-left: 40px;
+  padding: 10px;
+  background: whitesmoke;
+  width: 80%;
+  border: 1px solid rgb(234, 234, 234);
+}
+.email:focus {
+  outline: none;
+  border-color: rgb(178, 178, 178);
+}
+::placeholder {
+  font-size: 12px;
+  color: rgb(173, 173, 173);
+}
+.password {
+  margin-top: 10px;
+}
+button {
+  background: #77acc3;
+  border: none;
+  padding: 7px;
+  width: 80%;
+  margin-left: 40px;
+  color: white;
+  border-radius: 3px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #2ca4d7;
+}
+.or {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: rgb(191, 191, 191);
+}
+.or::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100px;
+  background-color: rgb(191, 191, 191);
+  margin-top: 5px;
+  margin-left: 26px;
+}
+.or::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 99px;
+  background-color: rgb(191, 191, 191);
+  margin-top: 5px;
+  margin-left: -125px;
+}
+.facebook {
+  height: 16px;
+  width: 16px;
+  margin-left: 100px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.fb {
+  color: rgba(77, 87, 110, 0.825);
+  font-family: sans-serif;
+  margin-left: 125px;
+  margin-top: -20px;
+  font-size: 13px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.forgot {
+  color: rgb(81, 80, 80);
+  font-size: 10px;
+  font-family: sans-serif;
+  margin-left: 34%;
+  font-weight: lighter;
+  margin-top: -25px;
+  cursor: pointer;
+}
+.dont {
+  padding: 2px;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: rgb(50, 49, 49);
+  margin-top: 4px;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
+  outline: none;
+  border: 1px solid rgb(237, 237, 237);
+  box-shadow: inset 30px 31px 5px rgba(237, 237, 237, 0.1);
+}
+.dont span {
+  color: #03a6eb;
+  font-weight: bolder;
+}
+.get {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: -12px;
+}
+.img img {
+  height: 45px;
+  width: 120px;
+  margin-left: 12%;
+  justify-content: space-between;
+}
